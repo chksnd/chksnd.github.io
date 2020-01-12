@@ -1,0 +1,36 @@
+
+.is-primary {
+  background-color: #79d9eb !important;
+}
+
+.is-info {
+  background-color: #0070ba !important;
+}
+
+.is-dark {
+  background-color: #25272A !important;
+}
+
+#cover {
+  height: 250px;
+  background-image: url(../images/cover.png);
+  background-size: auto 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #25272A;
+  /* background-color: #000; */
+}
+
+#badge {
+  margin-top: 16px;
+  text-align: center;
+}
+
+#badge img {
+  width: calc(128px + 64px);
+}
+
+#app-screen {
+  width: 256px;
+  margin: 0 auto;
+}
