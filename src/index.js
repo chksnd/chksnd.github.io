@@ -4,6 +4,10 @@ import ReactDOM from 'react-dom'
 import './assets/css/index.css'
 import appLogo from './assets/images/app-logo.png'
 import appScreen from './assets/images/app-screen.png'
+import appPromo from './assets/video/promo.webm'
+
+// 2220 1,080
+// 1280 720
 
 const App = () => (
   <div className=''>
@@ -33,7 +37,10 @@ const App = () => (
     </div>
 
     <div id='app-screen' style={{ marginBottom: 64 }}>
-      <img src={appScreen} alt='ChkSnd App Screen' />
+      <video autoPlay loop>
+        <source src={appPromo} type='video/webm' />
+        <img src={appScreen} alt='ChkSnd App Screen' />
+      </video>
     </div>
 
     <section id='download' className='hero is-light'>
