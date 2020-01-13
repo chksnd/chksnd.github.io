@@ -1,18 +1,11 @@
 
-.is-primary {
-  background-color: #79d9eb !important;
-}
-
-.is-info {
-  background-color: #0070ba !important;
-}
-
 .is-dark {
   background-color: #25272A !important;
 }
 
 #cover {
-  height: 250px;
+  margin-top: -88px;
+  height: 400px;
   background-image: url(../images/cover.png);
   background-size: auto 400px;
   background-repeat: no-repeat;
@@ -31,6 +24,19 @@
 }
 
 #app-screen {
-  width: 256px;
+  max-width: 300px;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 1216px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #cover {
+    height: 300px;
+    margin-top: 0;
+  }
 }

@@ -11,10 +11,10 @@ const App = () => (
       <div className='container'>
         <div className='navbar-menu is-active'>
           <div className='navbar-end'>
-            <a className='navbar-item' href='#support'>Support</a>
-            <a className='navbar-item' href='#legal'>Legal</a>
+            <a className='navbar-item' href='#support'><span role='img' aria-label=''>🤝</span>Support</a>
+            <a className='navbar-item' href='#legal'><span role='img' aria-label=''>📖</span>Legal</a>
             <div className='navbar-item'>
-              <a className='button is-primary' href='#download'>Download</a>
+              <a className='button is-white is-rounded' href='#download'>Download</a>
             </div>
           </div>
         </div>
@@ -24,10 +24,11 @@ const App = () => (
     <div id='cover' />
 
     <div style={{ alignItems: 'center', textAlign: 'center', margin: 64 }}>
-      <div className='is-size-5'>
+      <div className=''>
         <strong>ChkSnd</strong> is a tool to create<br />
         music <strong>videos</strong><br />
-        with <strong>visual</strong> accompaniment.
+        with <strong>visual</strong> accompaniment.<br />
+        <div className='is-size-1'><span role='img' aria-label=''>🔥</span></div>
       </div>
     </div>
 
@@ -48,19 +49,25 @@ const App = () => (
       </div>
     </section>
 
-    <section id='support' className='hero'>
-      <div id='hero-body' style={{ padding: 64, textAlign: 'center' }}>
-        <div className='title'>You like the app?</div>
-        <div className='subtitle is-6'>Send your tip to the developer!</div>
+    <section id='support' className='hero is-info'>
+      <div className='container'>
+        <div id='hero-body' style={{ padding: 64, textAlign: 'center' }}>
+          <div className='title'>You like the app? <span role='img' aria-label=''>🤩</span></div>
+          <div className='subtitle is-6'>You want to support a developer?</div>
 
-        <a className='button is-info is-medium' href='https://www.paypal.me/aimazh' target='_blank' rel='noopener noreferrer' style={{ borderRadius: 32 }}>PayPal.Me</a>
+          <div style={{ marginBottom: 16 }}>
+            <a className='button is-white is-medium' href='https://www.paypal.me/aimazh' target='_blank' rel='noopener noreferrer' style={{ borderRadius: 32 }}>Send a Tip <span role='img' aria-label=''>💰</span></a>
+          </div>
+
+          <p>ChkSnd is a <b>non-profit</b> mobile app. Since the developer is a <b>hater</b> of monetization on advertising <span role='img' aria-label=''>🤓</span>, there is no kind of earnings in the app. By sending <b>a tip</b>, you will <b>support</b> the developer <span role='img' aria-label=''>😃</span> and become a ChkSnd contributor. Thank you <span role='img' aria-label=''>🙏</span>!</p>
+        </div>
       </div>
     </section>
 
-    <section id='legal' className='hero is-warning'>
+    <section id='legal' className='hero'>
       <div className='container'>
         <div id='hero-body' style={{ padding: 64 }}>
-          <div className='title'>Privacy & Terms Of Use</div>
+          <div className='title is-4'>Privacy & Terms Of Use</div>
           <p>ChkSnd does not collect any sensitive information about your personal information and/or your device. ChkSnd does not contain any illegal and/or obscene content.</p>
           <br />
           <p>All costs incurred with the use of ChkSnd are borne by you.</p>
@@ -72,9 +79,11 @@ const App = () => (
 
     <section className='hero is-dark'>
       <div id='hero-body' style={{ padding: 64, textAlign: 'center' }}>
-        Made with &heart; by Aibek Mazhitov
+        <small className='is-size-'>
+          Made with &heart; by <strong><a style={{ color: 'white' }} href='https://aimazh.github.io/' target='_blank' rel='noopener noreferrer'>@aimazh</a></strong>
           <br />
-        ChkSnd &copy; 2020
+          &copy; 2020 ChkSnd
+        </small>
       </div>
     </section>
   </div>
