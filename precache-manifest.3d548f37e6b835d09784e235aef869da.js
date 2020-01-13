@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "05ac951f9c762d75aacc50cadd5b9cf2",
+    "revision": "93f5164d6e13c5f51b604eb2cdfe51b4",
     "url": "/chksndapp/index.html"
   },
   {
-    "revision": "46908bffc4e9cde47994",
-    "url": "/chksndapp/static/css/main.7528947b.chunk.css"
+    "revision": "d7e5d08e2179770cbe28",
+    "url": "/chksndapp/static/css/main.eb40840a.chunk.css"
   },
   {
     "revision": "4fe528706c03a8e1c03e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chksndapp/static/js/2.e01fe886.chunk.js.LICENSE"
   },
   {
-    "revision": "46908bffc4e9cde47994",
-    "url": "/chksndapp/static/js/main.837283d9.chunk.js"
+    "revision": "d7e5d08e2179770cbe28",
+    "url": "/chksndapp/static/js/main.841b2d5e.chunk.js"
   },
   {
     "revision": "ee968966e888e0289d1c",
