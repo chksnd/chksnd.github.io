@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d4f9fec45d87963d41ad2f87323f372d",
+    "revision": "7eb508dbd659924de97ec657aec9a6f8",
     "url": "/chksndapp/index.html"
   },
   {
-    "revision": "a4028acaa658d5ac5667",
+    "revision": "4d3543a86f5fc8f76de4",
     "url": "/chksndapp/static/css/main.eb40840a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chksndapp/static/js/2.7697040e.chunk.js.LICENSE"
   },
   {
-    "revision": "a4028acaa658d5ac5667",
-    "url": "/chksndapp/static/js/main.097db362.chunk.js"
+    "revision": "4d3543a86f5fc8f76de4",
+    "url": "/chksndapp/static/js/main.fb7d99d0.chunk.js"
   },
   {
     "revision": "ee968966e888e0289d1c",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chksndapp/static/media/app-logo.6d49b9eb.png"
   },
   {
-    "revision": "c7733d8fe7ded2e88a8fba1d8e720f09",
-    "url": "/chksndapp/static/media/app-screen.c7733d8f.png"
+    "revision": "2ec13aae8edc813c4d388d88710eae68",
+    "url": "/chksndapp/static/media/app-screen.2ec13aae.png"
   },
   {
     "revision": "e7622b2be1e1041e9e398c864c2ed248",
