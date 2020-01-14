@@ -37,7 +37,7 @@ const App = () => (
     </div>
 
     <div id='app-screen' style={{ marginBottom: 64 }}>
-      <video loop={true} autoplay='autoplay' poster={appScreen}>
+      <video loop={true} autoPlay={true} muted={true} poster={appScreen}>
         <source src={appPromo} type='video/webm' />
       </video>
     </div>
