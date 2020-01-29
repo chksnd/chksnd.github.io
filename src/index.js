@@ -15,7 +15,6 @@ const App = () => (
       <div className='container'>
         <div className='navbar-menu is-active'>
           <div className='navbar-end'>
-            <a className='navbar-item' href='#support'><span role='img' aria-label=''>🤝</span>Support</a>
             <a className='navbar-item' href='#legal'><span role='img' aria-label=''>📖</span>Legal</a>
             <div className='navbar-item'>
               <a className='button is-white is-rounded' href='#download'>Download</a>
@@ -51,21 +50,6 @@ const App = () => (
           <a href='https://play.google.com/store/apps/details?id=co.chksndapp&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
             <img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' />
           </a>
-        </div>
-      </div>
-    </section>
-
-    <section id='support' className='hero is-info'>
-      <div className='container'>
-        <div id='hero-body' style={{ padding: 64, textAlign: 'center' }}>
-          <div className='title'>You like the app? <span role='img' aria-label=''>🤩</span></div>
-          <div className='subtitle is-6'>You want to support a developer?</div>
-
-          <div style={{ marginBottom: 16 }}>
-            <a className='button is-white is-medium' href='https://www.paypal.me/aimazh' target='_blank' rel='noopener noreferrer' style={{ borderRadius: 32 }}>Send a Tip <span role='img' aria-label=''>💰</span></a>
-          </div>
-
-          <p>ChkSnd is a <b>non-profit</b> mobile app. Since the developer is a <b>hater</b> of monetization on advertising <span role='img' aria-label=''>🤓</span>, there is no kind of earnings in the app. By sending <b>a tip</b>, you will <b>support</b> the developer <span role='img' aria-label=''>😃</span> and become a ChkSnd contributor. Thank you <span role='img' aria-label=''>🙏</span>!</p>
         </div>
       </div>
     </section>
