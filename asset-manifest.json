@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/chksndapp/static/css/main.eb40840a.chunk.css",
-    "main.js": "/chksndapp/static/js/main.7490c125.chunk.js",
-    "main.js.map": "/chksndapp/static/js/main.7490c125.chunk.js.map",
+    "main.js": "/chksndapp/static/js/main.cd5d30c2.chunk.js",
+    "main.js.map": "/chksndapp/static/js/main.cd5d30c2.chunk.js.map",
     "runtime-main.js": "/chksndapp/static/js/runtime-main.4f978f23.js",
     "runtime-main.js.map": "/chksndapp/static/js/runtime-main.4f978f23.js.map",
     "static/js/2.7697040e.chunk.js": "/chksndapp/static/js/2.7697040e.chunk.js",
     "static/js/2.7697040e.chunk.js.map": "/chksndapp/static/js/2.7697040e.chunk.js.map",
     "index.html": "/chksndapp/index.html",
-    "precache-manifest.e1e8369206f04b22b62bc9060f1947d3.js": "/chksndapp/precache-manifest.e1e8369206f04b22b62bc9060f1947d3.js",
+    "precache-manifest.84f7d38232659dac5c3b7b97648a0c60.js": "/chksndapp/precache-manifest.84f7d38232659dac5c3b7b97648a0c60.js",
     "service-worker.js": "/chksndapp/service-worker.js",
     "static/css/main.eb40840a.chunk.css.map": "/chksndapp/static/css/main.eb40840a.chunk.css.map",
     "static/js/2.7697040e.chunk.js.LICENSE": "/chksndapp/static/js/2.7697040e.chunk.js.LICENSE",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.4f978f23.js",
     "static/js/2.7697040e.chunk.js",
     "static/css/main.eb40840a.chunk.css",
-    "static/js/main.7490c125.chunk.js"
+    "static/js/main.cd5d30c2.chunk.js"
   ]
 }
