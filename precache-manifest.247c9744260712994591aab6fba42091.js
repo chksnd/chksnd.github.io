@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f98d567cd938480cf1f320c1984bfd17",
+    "revision": "9f21a04215f5a817eace66859d725212",
     "url": "/chksndapp/index.html"
   },
   {
-    "revision": "884c32315432bc4ab3d7",
-    "url": "/chksndapp/static/css/main.eb40840a.chunk.css"
+    "revision": "1283f6ec82c7937761a4",
+    "url": "/chksndapp/static/css/main.dfab798a.chunk.css"
   },
   {
-    "revision": "895027b8521afbefdf78",
-    "url": "/chksndapp/static/js/2.7697040e.chunk.js"
+    "revision": "8dbdd67733752a22bc03",
+    "url": "/chksndapp/static/js/2.f285a05c.chunk.js"
   },
   {
-    "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/chksndapp/static/js/2.7697040e.chunk.js.LICENSE"
+    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
+    "url": "/chksndapp/static/js/2.f285a05c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "884c32315432bc4ab3d7",
-    "url": "/chksndapp/static/js/main.cd5d30c2.chunk.js"
+    "revision": "1283f6ec82c7937761a4",
+    "url": "/chksndapp/static/js/main.9f6e9c45.chunk.js"
   },
   {
-    "revision": "ee968966e888e0289d1c",
-    "url": "/chksndapp/static/js/runtime-main.4f978f23.js"
+    "revision": "c13e6ccec4e7852eeb29",
+    "url": "/chksndapp/static/js/runtime-main.4f2f822b.js"
   },
   {
     "revision": "6d49b9eb0e8e6ff05bd0e5046099f8f6",
