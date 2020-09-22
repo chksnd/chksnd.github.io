@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9f21a04215f5a817eace66859d725212",
+    "revision": "900ddf79c0a3020acce591507eba064c",
     "url": "/chksndapp/index.html"
   },
   {
-    "revision": "1283f6ec82c7937761a4",
-    "url": "/chksndapp/static/css/main.dfab798a.chunk.css"
+    "revision": "7cdcb94f1a8e62c07693",
+    "url": "/chksndapp/static/css/main.053bac28.chunk.css"
   },
   {
-    "revision": "8dbdd67733752a22bc03",
-    "url": "/chksndapp/static/js/2.f285a05c.chunk.js"
+    "revision": "055658e69644386995fd",
+    "url": "/chksndapp/static/js/2.0c695c84.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/chksndapp/static/js/2.f285a05c.chunk.js.LICENSE.txt"
+    "url": "/chksndapp/static/js/2.0c695c84.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1283f6ec82c7937761a4",
-    "url": "/chksndapp/static/js/main.9f6e9c45.chunk.js"
+    "revision": "7cdcb94f1a8e62c07693",
+    "url": "/chksndapp/static/js/main.f95bec39.chunk.js"
   },
   {
     "revision": "c13e6ccec4e7852eeb29",
     "url": "/chksndapp/static/js/runtime-main.4f2f822b.js"
+  },
+  {
+    "revision": "db9b21a1c41f3dcd9731e1e7acfdbb57",
+    "url": "/chksndapp/static/media/app-badge-android.db9b21a1.png"
   },
   {
     "revision": "6d49b9eb0e8e6ff05bd0e5046099f8f6",
