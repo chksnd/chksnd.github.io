@@ -14,13 +14,28 @@
   /* background-color: #000; */
 }
 
-#badge {
+.badges {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.badges > .badge {
   margin-top: 16px;
   text-align: center;
 }
 
-#badge img {
-  width: calc(128px + 64px);
+.badges > .badge:not(:last-child) {
+  margin-right: 16px;
+}
+
+.badges > .badge.android img {
+  height: 64px;
+}
+
+.badges > .badge.ios img {
+  height: 44px;
 }
 
 #app-screen {

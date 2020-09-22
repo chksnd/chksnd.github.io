@@ -9,6 +9,9 @@ import appPromo from './assets/video/promo.webm'
 // 2220 1,080
 // 1280 720
 
+import AppBadgeAndroid from './assets/images/app-badge-android.png'
+import AppBadgeIOS from './assets/images/app-badge-ios.png'
+
 const App = () => (
   <div className=''>
     <nav className='navbar is-dark is-transparent is-spaced'>
@@ -46,10 +49,17 @@ const App = () => (
         <img src={appLogo} alt='ChkSnd App Logo' width={100} style={{ marginBottom: 32 }} />
         <div className='title'>Get It Now</div>
         <div className='subtitle is-6'>ChkSnd is currently available only for Android platform.</div>
-        <div id='badge'>
-          <a href='https://play.google.com/store/apps/details?id=co.chksndapp&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-            <img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' />
-          </a>
+        <div className='badges'>
+          <div className='badge android'>
+            <a href='https://play.google.com/store/apps/details?id=co.chksndapp'>
+              <img alt='Get it on Google Play' src={AppBadgeAndroid} />
+            </a>
+          </div>
+          <div className='badge ios'>
+            <a href='https://apps.apple.com/app/id1528056717'>
+              <img alt='Get it on App Store' src={AppBadgeIOS} />
+            </a>
+          </div>
         </div>
       </div>
     </section>
