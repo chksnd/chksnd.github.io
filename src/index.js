@@ -31,9 +31,10 @@ const App = () => (
 
     <div style={{ alignItems: 'center', textAlign: 'center', margin: 64 }}>
       <div className=''>
-        <strong>ChkSnd</strong> is a tool to create<br />
-        music <strong>videos</strong><br />
-        with <strong>visual</strong> accompaniment.<br />
+        <strong>ChkSnd</strong><br />
+        is a <i>tool</i> to create<br />
+        <i>awesome</i> music videos<br />
+        with audio <i>visualization</i>.<br />
         <div className='is-size-1'><span role='img' aria-label=''>🔥</span></div>
       </div>
     </div>
@@ -48,7 +49,7 @@ const App = () => (
       <div id='hero-body' style={{ padding: 64, textAlign: 'center' }}>
         <img src={appLogo} alt='ChkSnd App Logo' width={100} style={{ marginBottom: 32 }} />
         <div className='title'>Get It Now</div>
-        <div className='subtitle is-6'>ChkSnd is currently available only for Android platform.</div>
+        <div className='subtitle is-6'>ChkSnd is available for both iOS & Android platforms.</div>
         <div className='badges'>
           <div className='badge android'>
             <a href='https://play.google.com/store/apps/details?id=co.chksndapp'>
@@ -80,7 +81,7 @@ const App = () => (
     <section className='hero is-dark'>
       <div id='hero-body' style={{ padding: 64, textAlign: 'center' }}>
         <small className='is-size-'>
-          Made with &heart; by <strong><a style={{ color: 'white' }} href='https://aimazh.github.io/' target='_blank' rel='noopener noreferrer'>@aimazh</a></strong>
+          Made with &heart; by <strong><a style={{ color: 'white' }} href='http://aimazh.com' target='_blank' rel='noopener noreferrer'>@aimazh</a></strong>
           <br />
           &copy; 2020 ChkSnd
         </small>
