@@ -81,9 +81,9 @@ const App = () => (
     <section className='hero is-dark'>
       <div id='hero-body' style={{ padding: 64, textAlign: 'center' }}>
         <small className='is-size-'>
-          Made with &heart; by <strong><a style={{ color: 'white' }} href='http://aimazh.com' target='_blank' rel='noopener noreferrer'>@aimazh</a></strong>
+          Made by <strong><a style={{ color: 'white' }} href='http://aimazh.com' target='_blank' rel='noopener noreferrer'>@aimazh</a></strong>
           <br />
-          &copy; 2020 ChkSnd
+          &copy; 2020 Aibek Mazhitov
         </small>
       </div>
     </section>
