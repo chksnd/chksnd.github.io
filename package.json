@@ -2,7 +2,7 @@
   "name": "chksnd.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://chksnd.github.io",
+  "homepage": "https://chksnd.app",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -10,6 +10,8 @@
     "gh-pages": "^2.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-router": "^6.2.1",
+    "react-router-dom": "^6.2.1",
     "react-scripts": "3.4.1"
   },
   "scripts": {

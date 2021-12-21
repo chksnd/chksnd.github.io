@@ -1,93 +1,69 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import {
+  Route,
+  Routes,
+  BrowserRouter,
+} from 'react-router-dom'
 
-import './assets/css/index.css'
-import appLogo from './assets/images/app-logo.png'
-import appScreen from './assets/images/app-screen.png'
-import appPromo from './assets/video/promo.webm'
+import './index.css'
 
-// 2220 1,080
-// 1280 720
+import Home from './home'
+import Privacy from './privacy'
+import Terms from './terms'
+import Cookies from './cookies'
+import OpenSource from './open-source'
 
-import AppBadgeAndroid from './assets/images/app-badge-android.png'
-import AppBadgeIOS from './assets/images/app-badge-ios.png'
+import Logo from './assets/images/app-logo.png'
 
 const App = () => (
-  <div className=''>
-    <nav className='navbar is-dark is-transparent is-spaced'>
+  <div>
+    <div className='header'>
+      <a href='/'>
+        <img src={Logo} alt='Logo' width='80' height='80' />
+      </a>
+    </div>
+    <div className='content'>
       <div className='container'>
-        <div className='navbar-menu is-active'>
-          <div className='navbar-end'>
-            <a className='navbar-item' href='#legal'><span role='img' aria-label=''>📖</span>Legal</a>
-            <div className='navbar-item'>
-              <a className='button is-white is-rounded' href='#download'>Download</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-
-    <div id='cover' />
-
-    <div style={{ alignItems: 'center', textAlign: 'center', margin: 64 }}>
-      <div className=''>
-        <strong>ChkSnd</strong><br />
-        is a <i>tool</i> to create<br />
-        <i>awesome</i> music videos<br />
-        with audio <i>visualization</i>.<br />
-        <div className='is-size-1'><span role='img' aria-label=''>🔥</span></div>
+        <Routes>
+          <Route path='/' element={<Home />} index />
+          <Route path='/privacy' element={<Privacy />} />
+          <Route path='/terms' element={<Terms />} />
+          <Route path='/cookies' element={<Cookies />} />
+          <Route path='/open-source' element={<OpenSource />} />
+        </Routes>
       </div>
     </div>
-
-    <div id='app-screen' style={{ marginBottom: 64 }}>
-      <video loop={true} autoPlay={true} muted={true} poster={appScreen}>
-        <source src={appPromo} type='video/webm' />
-      </video>
+    <div className='footer'>
+      <div className='social'>
+        <a href="https://instagram.com/chksnd.app" target='_blank' rel='noopener noreferrer'>
+          <i className='fab fa-instagram fa-lg' />
+        </a>
+        <a href="https://tiktok.com/@chksnd.app" target='_blank' rel='noopener noreferrer'>
+          <i className='fab fa-tiktok fa-lg' />
+        </a>
+        <a href="https://t.me/chksndapp" target='_blank' rel='noopener noreferrer'>
+          <i className='fab fa-telegram fa-lg' />
+        </a>
+        <a href="https://discord.gg/fCFkf6ZfPC" target='_blank' rel='noopener noreferrer'>
+          <i className='fab fa-discord fa-lg' />
+        </a>
+      </div>
+      <div className='links'>
+        <a href='/'>Home</a>
+        <a href='/privacy'>Privacy</a>
+        <a href='/terms'>Terms</a>
+        <a href='/cookies'>Cookies</a>
+      </div>
     </div>
-
-    <section id='download' className='hero is-light'>
-      <div id='hero-body' style={{ padding: 64, textAlign: 'center' }}>
-        <img src={appLogo} alt='ChkSnd App Logo' width={100} style={{ marginBottom: 32 }} />
-        <div className='title'>Get It Now</div>
-        <div className='subtitle is-6'>ChkSnd is available for both iOS & Android platforms.</div>
-        <div className='badges'>
-          <div className='badge android'>
-            <a href='https://play.google.com/store/apps/details?id=co.chksndapp'>
-              <img alt='Get it on Google Play' src={AppBadgeAndroid} />
-            </a>
-          </div>
-          <div className='badge ios'>
-            <a href='https://apps.apple.com/app/id1528056717'>
-              <img alt='Get it on App Store' src={AppBadgeIOS} />
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id='legal' className='hero'>
-      <div className='container'>
-        <div id='hero-body' style={{ padding: 64 }}>
-          <div className='title is-4'>Privacy & Terms Of Use</div>
-          <p>ChkSnd does not collect any sensitive information about your personal information and/or your device. ChkSnd does not contain any illegal and/or obscene content.</p>
-          <br />
-          <p>All costs incurred with the use of ChkSnd are borne by you.</p>
-          <br />
-          <p>By using ChkSnd, you agree to these terms and conditions.</p>
-        </div>
-      </div>
-    </section>
-
-    <section className='hero is-dark'>
-      <div id='hero-body' style={{ padding: 64, textAlign: 'center' }}>
-        <small className='is-size-'>
-          Made by <strong><a style={{ color: 'white' }} href='http://aimazh.com' target='_blank' rel='noopener noreferrer'>@aimazh</a></strong>
-          <br />
-          &copy; 2020 Aibek Mazhitov
-        </small>
-      </div>
-    </section>
+    <div className='credits'>
+      <a href='https://aimazh.com/' className='rainbow' target='_blank' rel='noopener noreferrer'>&lt;/&gt; by @aimazh</a>
+    </div>
   </div>
 )
 
-ReactDOM.render(<App />, document.getElementById('root'))
+ReactDOM.render((
+  <BrowserRouter basename='/'>
+    <App />
+  </BrowserRouter>
+), document.getElementById('root'))
