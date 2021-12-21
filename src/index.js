@@ -63,7 +63,7 @@ const App = () => (
 )
 
 ReactDOM.render((
-  <BrowserRouter basename='/'>
+  <BrowserRouter>
     <App />
   </BrowserRouter>
 ), document.getElementById('root'))
