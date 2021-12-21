@@ -16,6 +16,14 @@ import OpenSource from './open-source'
 
 import Logo from './assets/images/app-logo.png'
 
+const NotFound = () => (
+  <div>
+    <section style={{ textAlign: 'center' }}>
+      <iframe title='404' src='https://giphy.com/embed/xTiN0L7EW5trfOvEk0' width='100%' height='600px' frameBorder='0' allowFullScreen />
+    </section>
+  </div>
+)
+
 const App = () => (
   <div>
     <div className='header'>
@@ -31,6 +39,7 @@ const App = () => (
           <Route path='/terms' element={<Terms />} />
           <Route path='/cookies' element={<Cookies />} />
           <Route path='/open-source' element={<OpenSource />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </div>
     </div>
