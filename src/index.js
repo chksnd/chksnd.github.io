@@ -72,7 +72,7 @@ const App = () => (
 )
 
 ReactDOM.render((
-  <BrowserRouter basename='/'>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <App />
   </BrowserRouter>
 ), document.getElementById('root'))
