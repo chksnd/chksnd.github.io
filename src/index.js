@@ -63,7 +63,7 @@ const App = () => (
 )
 
 ReactDOM.render((
-  <BrowserRouter>
+  <BrowserRouter basename='https://chksnd.app/'>
     <App />
   </BrowserRouter>
 ), document.getElementById('root'))
