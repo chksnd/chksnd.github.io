@@ -16,8 +16,6 @@ import Terms from './terms'
 import Cookies from './cookies'
 import OpenSource from './open-source'
 
-import Logo from './assets/images/logo.svg'
-
 const NotFound = () => (
   <div>
     <section style={{ textAlign: 'center' }}>
