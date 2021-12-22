@@ -9,7 +9,7 @@ import Promo from './assets/video/promo.webm'
 const Home = () => (
   <div className='home' style={{ textAlign: 'center' }}>
     <section>
-      <video loop autoPlay poster={Screen} style={{ height: 600 }}>
+      <video loop autoPlay poster={Screen} style={{ width: '100%', maxWidth: 300, borderRadius: 8 }}>
         <source src={Promo} type='video/webm' />
       </video>
     </section>
