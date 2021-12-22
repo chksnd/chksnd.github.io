@@ -39,7 +39,7 @@ const App = () => {
     <div>
       <div className='header'>
         <Link to='/'>
-          <img src={Logo} alt='Logo' height='48' className='rainbow' />
+          <div className='logo' />
         </Link>
       </div>
       <div className='content'>

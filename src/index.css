@@ -44,6 +44,13 @@ code {
   justify-content: center;
 }
 
+.header .logo {
+  background-image: url(./assets/images/logo.svg);
+  background-size: 172px 48px;
+  width: 172px;
+  height: 48px;
+}
+
 .credits {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 12px;
@@ -129,6 +136,10 @@ code {
 }
 
 @media (prefers-color-scheme: dark) {
+  .header .logo {
+    background-image: url(./assets/images/logo-white.svg);
+  }
+
   .footer > .social > * {
     color: white;
   }
