@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.142a80ce.chunk.css",
-    "main.js": "/static/js/main.4fd88a4f.chunk.js",
-    "main.js.map": "/static/js/main.4fd88a4f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.bb5871b1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.bb5871b1.js.map",
-    "static/js/2.a5ea9dfd.chunk.js": "/static/js/2.a5ea9dfd.chunk.js",
-    "static/js/2.a5ea9dfd.chunk.js.map": "/static/js/2.a5ea9dfd.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.4ea2a3b7afd23c76e7d7762d05434348.js": "/precache-manifest.4ea2a3b7afd23c76e7d7762d05434348.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.142a80ce.chunk.css.map": "/static/css/main.142a80ce.chunk.css.map",
-    "static/js/2.a5ea9dfd.chunk.js.LICENSE.txt": "/static/js/2.a5ea9dfd.chunk.js.LICENSE.txt",
-    "static/media/app-badge-android.png": "/static/media/app-badge-android.db9b21a1.png",
-    "static/media/app-logo.png": "/static/media/app-logo.6d49b9eb.png",
-    "static/media/app-screen.png": "/static/media/app-screen.2ec13aae.png",
-    "static/media/promo.webm": "/static/media/promo.d60e47b0.webm"
+    "main.css": "./static/css/main.142a80ce.chunk.css",
+    "main.js": "./static/js/main.06f67fec.chunk.js",
+    "main.js.map": "./static/js/main.06f67fec.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.a60f064b.js",
+    "runtime-main.js.map": "./static/js/runtime-main.a60f064b.js.map",
+    "static/js/2.a5ea9dfd.chunk.js": "./static/js/2.a5ea9dfd.chunk.js",
+    "static/js/2.a5ea9dfd.chunk.js.map": "./static/js/2.a5ea9dfd.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.48563949fe6f04e30f0b4887bdb29867.js": "./precache-manifest.48563949fe6f04e30f0b4887bdb29867.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.142a80ce.chunk.css.map": "./static/css/main.142a80ce.chunk.css.map",
+    "static/js/2.a5ea9dfd.chunk.js.LICENSE.txt": "./static/js/2.a5ea9dfd.chunk.js.LICENSE.txt",
+    "static/media/app-badge-android.png": "./static/media/app-badge-android.db9b21a1.png",
+    "static/media/app-logo.png": "./static/media/app-logo.6d49b9eb.png",
+    "static/media/app-screen.png": "./static/media/app-screen.2ec13aae.png",
+    "static/media/promo.webm": "./static/media/promo.d60e47b0.webm"
   },
   "entrypoints": [
-    "static/js/runtime-main.bb5871b1.js",
+    "static/js/runtime-main.a60f064b.js",
     "static/js/2.a5ea9dfd.chunk.js",
     "static/css/main.142a80ce.chunk.css",
-    "static/js/main.4fd88a4f.chunk.js"
+    "static/js/main.06f67fec.chunk.js"
   ]
 }
