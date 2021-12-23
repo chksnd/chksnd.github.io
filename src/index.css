@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
 
 * {
@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Alata', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 code {
@@ -104,6 +104,33 @@ code {
   margin-right: 16px;
 }
 
+.home .os-toggle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.home .os-toggle > * {
+  font-size: 14px;
+  text-decoration: none;
+  color: #7e8190;
+}
+
+.home .os-toggle > .active {
+  color: black;
+}
+
+.home .os-toggle > *:not(:last-child) {
+  margin-right: 4px;
+}
+
+.home .os-toggle > *:not(:last-child)::after {
+  content: '·';
+  margin-left: 4px;
+}
+
 .app-badges {
   display: flex;
   flex-direction: row;
@@ -133,6 +160,24 @@ code {
 
 .fa-discord {
   color: #5865f2;
+}
+
+.bmac {
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  background-image: url(./assets/images/bmac-light-button.png);
+  background-size: 150px 40px;
+  margin-bottom: 12px;
+}
+
+.patreon {
+  display: inline-block;
+  width: 150px;
+  height: 36px;
+  background-image: url(./assets/images/patreon.png);
+  background-size: 150px 36px;
+  margin-bottom: 12px;
 }
 
 @media (prefers-color-scheme: dark) {
