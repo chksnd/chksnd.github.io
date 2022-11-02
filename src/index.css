@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
-
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +5,7 @@
 }
 
 body {
-  font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;
+  font-family: system-ui;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.6;
@@ -22,12 +19,27 @@ li {
   margin-left: 16px;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol, li, hr {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+hr {
   margin-bottom: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: system-ui;
 }
 
 code {
@@ -45,14 +57,16 @@ code {
 }
 
 .header .logo {
+  --width: 200px;
+  --height: 55px;
   background-image: url(./assets/images/logo.svg);
-  background-size: 172px 48px;
-  width: 172px;
-  height: 48px;
+  background-size: var(--width) var(--height);
+  width: var(--width);
+  height: var(--height);
 }
 
 .credits {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: monospace;
   font-size: 12px;
   font-weight: 600;
   text-align: center;
@@ -62,7 +76,7 @@ code {
 .container {
   max-width: 664px;
   margin: 0 auto;
-  padding: 0 32px
+  padding: 0 32px;
 }
 
 .footer {
@@ -71,7 +85,7 @@ code {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .footer > .social {
@@ -127,7 +141,7 @@ code {
 }
 
 .home .os-toggle > *:not(:last-child)::after {
-  content: '·';
+  content: "·";
   margin-left: 4px;
 }
 
@@ -147,7 +161,7 @@ code {
 }
 
 .fa-instagram {
-  color: #E1306C;
+  color: #e1306c;
 }
 
 .fa-telegram {
@@ -162,24 +176,6 @@ code {
   color: #5865f2;
 }
 
-.bmac {
-  display: inline-block;
-  width: 150px;
-  height: 40px;
-  background-image: url(./assets/images/bmac-light-button.png);
-  background-size: 150px 40px;
-  margin-bottom: 12px;
-}
-
-.patreon {
-  display: inline-block;
-  width: 150px;
-  height: 36px;
-  background-image: url(./assets/images/patreon.png);
-  background-size: 150px 36px;
-  margin-bottom: 12px;
-}
-
 @media (prefers-color-scheme: dark) {
   .header .logo {
     background-image: url(./assets/images/logo-white.svg);
@@ -188,12 +184,16 @@ code {
   .footer > .social > * {
     color: white;
   }
-  
+
   .footer > .links > *:hover {
     color: white;
   }
 
   .fa-tiktok {
+    color: white;
+  }
+
+  .home .os-toggle > .active {
     color: white;
   }
 }
@@ -210,10 +210,11 @@ code {
 }
 
 @keyframes rainbow-animation {
-  0%, 100% {
-      background-position: 0 0;
+  0%,
+  100% {
+    background-position: 0 0;
   }
   50% {
-      background-position: 100% 0;
+    background-position: 100% 0;
   }
 }
