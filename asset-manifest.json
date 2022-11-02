@@ -1,28 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.f02e6710.chunk.css",
-    "main.js": "/static/js/main.2932900a.chunk.js",
-    "main.js.map": "/static/js/main.2932900a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.bb5871b1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.bb5871b1.js.map",
-    "static/js/2.5e0ffbf4.chunk.js": "/static/js/2.5e0ffbf4.chunk.js",
-    "static/js/2.5e0ffbf4.chunk.js.map": "/static/js/2.5e0ffbf4.chunk.js.map",
+    "main.css": "/static/css/main.d98f08c5.css",
+    "main.js": "/static/js/main.8fe0cb1f.js",
+    "static/media/promo.webm": "/static/media/promo.aea723a9e3b0619f63cc.webm",
+    "static/media/promo-ios.webm": "/static/media/promo-ios.faf64cc7b0c25797c1a1.webm",
+    "static/media/app-screen.png": "/static/media/app-screen.043b15dfb1c17e2c0e9a.png",
+    "static/media/app-screen-ios.png": "/static/media/app-screen-ios.3732ffd21f55e3b87257.png",
+    "static/media/logo-white.svg": "/static/media/logo-white.6ebd8141e3cd0dc42920.svg",
+    "static/media/logo.svg": "/static/media/logo.f33d4b4f4f8de67c3368.svg",
+    "static/media/app-badge-android.png": "/static/media/app-badge-android.f902960a94878ee0da67.png",
     "index.html": "/index.html",
-    "precache-manifest.c599a127ad062d01c799e5b30baba6c5.js": "/precache-manifest.c599a127ad062d01c799e5b30baba6c5.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.f02e6710.chunk.css.map": "/static/css/main.f02e6710.chunk.css.map",
-    "static/js/2.5e0ffbf4.chunk.js.LICENSE.txt": "/static/js/2.5e0ffbf4.chunk.js.LICENSE.txt",
-    "static/media/app-badge-android.png": "/static/media/app-badge-android.db9b21a1.png",
-    "static/media/app-screen-ios.jpeg": "/static/media/app-screen-ios.425714ec.jpeg",
-    "static/media/app-screen.png": "/static/media/app-screen.2ec13aae.png",
-    "static/media/index.css": "/static/media/logo.c975e2d9.svg",
-    "static/media/promo-ios.webm": "/static/media/promo-ios.d4ecb11f.webm",
-    "static/media/promo.webm": "/static/media/promo.d60e47b0.webm"
+    "main.d98f08c5.css.map": "/static/css/main.d98f08c5.css.map",
+    "main.8fe0cb1f.js.map": "/static/js/main.8fe0cb1f.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.bb5871b1.js",
-    "static/js/2.5e0ffbf4.chunk.js",
-    "static/css/main.f02e6710.chunk.css",
-    "static/js/main.2932900a.chunk.js"
+    "static/css/main.d98f08c5.css",
+    "static/js/main.8fe0cb1f.js"
   ]
 }
