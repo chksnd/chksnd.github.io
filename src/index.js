@@ -84,12 +84,12 @@ const App = () => {
       </div>
       <div className="credits">
         <a
-          href="https://aimkata.dev/"
+          href="https://heyaibek.github.io"
           className="rainbow"
           target="_blank"
           rel="noopener noreferrer"
         >
-          &lt;/&gt; by @aimkata
+          &lt;/&gt; by @heyaibek
         </a>
       </div>
     </div>
