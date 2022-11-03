@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d98f08c5.css",
-    "main.js": "/static/js/main.8fe0cb1f.js",
+    "main.js": "/static/js/main.7be4447e.js",
     "static/media/promo.webm": "/static/media/promo.aea723a9e3b0619f63cc.webm",
     "static/media/promo-ios.webm": "/static/media/promo-ios.faf64cc7b0c25797c1a1.webm",
     "static/media/app-screen.png": "/static/media/app-screen.043b15dfb1c17e2c0e9a.png",
@@ -11,10 +11,10 @@
     "static/media/app-badge-android.png": "/static/media/app-badge-android.f902960a94878ee0da67.png",
     "index.html": "/index.html",
     "main.d98f08c5.css.map": "/static/css/main.d98f08c5.css.map",
-    "main.8fe0cb1f.js.map": "/static/js/main.8fe0cb1f.js.map"
+    "main.7be4447e.js.map": "/static/js/main.7be4447e.js.map"
   },
   "entrypoints": [
     "static/css/main.d98f08c5.css",
-    "static/js/main.8fe0cb1f.js"
+    "static/js/main.7be4447e.js"
   ]
 }
