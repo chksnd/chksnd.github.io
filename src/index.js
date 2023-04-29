@@ -35,8 +35,9 @@ const App = () => {
   return (
     <div>
       <div className="header">
-        <Link to="/">
-          <div className="logo" />
+        <Link to="/" className="logo">
+          <div className="title">Vibely</div>
+          <div className="subtitle">Music visualization made easy</div>
         </Link>
       </div>
       <div className="content">
@@ -54,18 +55,25 @@ const App = () => {
       <div className="footer">
         <div className="social">
           <a
-            href="https://instagram.com/chksnd.app"
+            href="https://instagram.com/vibely.app"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-instagram fa-lg" />
           </a>
           <a
-            href="https://tiktok.com/@chksnd.app"
+            href="https://tiktok.com/@vibely.app"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-tiktok fa-lg" />
+          </a>
+          <a
+            href="https://youtube.com/@vibelyapp"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-youtube fa-lg" />
           </a>
           <a
             href="https://github.com/chksnd"

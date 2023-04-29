@@ -56,13 +56,24 @@ code {
   justify-content: center;
 }
 
-.header .logo {
-  --width: 200px;
-  --height: 55px;
-  background-image: url(./assets/images/logo.svg);
-  background-size: var(--width) var(--height);
-  width: var(--width);
-  height: var(--height);
+.header > .logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  line-height: 24px;
+  user-select: none;
+}
+
+.header > .logo > .title {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 35px;
+}
+
+.header > .logo > .subtitle {
+  text-transform: lowercase;
 }
 
 .credits {
@@ -172,13 +183,17 @@ code {
   color: #24292e;
 }
 
+.fa-youtube {
+  color: #FF0000;
+}
+
 .fa-discord {
   color: #5865f2;
 }
 
 @media (prefers-color-scheme: dark) {
-  .header .logo {
-    background-image: url(./assets/images/logo-white.svg);
+  .header > .logo {
+    color: white;
   }
 
   .footer > .social > * {

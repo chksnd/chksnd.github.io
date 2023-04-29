@@ -5,22 +5,23 @@ const Terms = () => (
     <section>
       <h2>Mobile App Terms of Service</h2>
       <p>
-        These Terms of Service govern your use of ChkSnd, our website located at{" "}
-        <a href="https://chksnd.app">https://chksnd.app</a>, and any related
+        These Terms of Service govern your use of Vibely (ChkSnd), our website
+        located at <a href="http://vibelyapp.co">http://vibelyapp.co</a> (<a href="https://chksnd.app">https://chksnd.app</a>), and any
+        related services provided by Aibek Mazhitov.{" "}
+      </p>
+      <p>
+        When you use Vibely (ChkSnd), you agree to abide by these Terms of
+        Service and to comply with all applicable laws and regulations. If you
+        do not agree with these Terms of Service, you are prohibited from
+        further using the app, accessing our website, or using any other
         services provided by Aibek Mazhitov.{" "}
       </p>
       <p>
-        When you use ChkSnd, you agree to abide by these Terms of Service and to
-        comply with all applicable laws and regulations. If you do not agree
-        with these Terms of Service, you are prohibited from further using the
-        app, accessing our website, or using any other services provided by
-        Aibek Mazhitov.{" "}
-      </p>
-      <p>
-        If you access or download ChkSnd from (1) the Apple App Store, you agree
-        to any Usage Rules set forth in the App Store Terms of Service; and/or
-        (2) the Google Play Store, you agree to the Android, Google Inc. Terms
-        and Conditions including the Google Apps Terms of Service.{" "}
+        If you access or download Vibely (ChkSnd) from (1) the Apple App Store,
+        you agree to any Usage Rules set forth in the App Store Terms of
+        Service; and/or (2) the Google Play Store, you agree to the Android,
+        Google Inc. Terms and Conditions including the Google Apps Terms of
+        Service.{" "}
       </p>
       <p>
         We, Aibek Mazhitov, reserve the right to review and amend any of these
@@ -32,53 +33,54 @@ const Terms = () => (
       <p>These Terms of Service were last updated on 21 December 2021. </p>
       <h3>Limitations of Use</h3>
       <p>
-        By using ChkSnd and our website, you warrant on behalf of yourself, any
-        entity who you represent who has entered into these Terms of Service,
-        and your users that you will not:{" "}
+        By using Vibely (ChkSnd) and our website, you warrant on behalf of
+        yourself, any entity who you represent who has entered into these Terms
+        of Service, and your users that you will not:{" "}
       </p>
       <ol>
         <li>
           modify, copy, prepare derivative works of, decompile, or reverse
-          engineer ChkSnd or any materials and software contained within ChkSnd
-          or on our website;
+          engineer Vibely (ChkSnd) or any materials and software contained
+          within Vibely (ChkSnd) or on our website;
         </li>
         <li>
-          remove any copyright or other proprietary notations from ChkSnd or any
-          materials and software contained within ChkSnd or on our website;
+          remove any copyright or other proprietary notations from Vibely
+          (ChkSnd) or any materials and software contained within Vibely
+          (ChkSnd) or on our website;
         </li>
         <li>
-          transfer ChkSnd or any of its associated materials to another person
-          or “mirror” the materials on any other server;
+          transfer Vibely (ChkSnd) or any of its associated materials to another
+          person or “mirror” the materials on any other server;
         </li>
         <li>
-          knowingly or negligently use ChkSnd or any of its associated services
-          in a way that abuses or disrupts our networks or any other service
-          Aibek Mazhitov provides;
+          knowingly or negligently use Vibely (ChkSnd) or any of its associated
+          services in a way that abuses or disrupts our networks or any other
+          service Aibek Mazhitov provides;
         </li>
         <li>
-          use ChkSnd or its associated services to transmit or publish any
-          harassing, indecent, obscene, fraudulent, or unlawful material;
+          use Vibely (ChkSnd) or its associated services to transmit or publish
+          any harassing, indecent, obscene, fraudulent, or unlawful material;
         </li>
         <li>
-          use ChkSnd or its associated services in violation of any applicable
-          laws or regulations;
+          use Vibely (ChkSnd) or its associated services in violation of any
+          applicable laws or regulations;
         </li>
-        <li>use ChkSnd to send unauthorized advertising or spam;</li>
+        <li>use Vibely (ChkSnd) to send unauthorized advertising or spam;</li>
         <li>
           harvest, collect, or gather user data without the user’s consent; or
         </li>
         <li>
-          use ChkSnd or its associated services in such a way that may infringe
-          the privacy, intellectual property rights, or other rights of third
-          parties.
+          use Vibely (ChkSnd) or its associated services in such a way that may
+          infringe the privacy, intellectual property rights, or other rights of
+          third parties.
         </li>
       </ol>
       <h3>Intellectual Property</h3>
       <p>
-        The intellectual property in the materials in ChkSnd and on our website
-        are owned by or licensed to Aibek Mazhitov. You may download ChkSnd, to
-        view, use, and display the application on your mobile device for your
-        personal use only.{" "}
+        The intellectual property in the materials in Vibely (ChkSnd) and on our
+        website are owned by or licensed to Aibek Mazhitov. You may download
+        Vibely (ChkSnd), to view, use, and display the application on your
+        mobile device for your personal use only.{" "}
       </p>
       <p>
         This constitutes the grant of a license, not a transfer of title. This
@@ -88,26 +90,29 @@ const Terms = () => (
       </p>
       <h3>Automatic Updates</h3>
       <p>
-        You give us permission to download and install updates to ChkSnd on your
-        device in accordance with your privacy preferences. This permission can
-        be revoked at any time by deleting ChkSnd from your device.{" "}
+        You give us permission to download and install updates to Vibely
+        (ChkSnd) on your device in accordance with your privacy preferences.
+        This permission can be revoked at any time by deleting Vibely (ChkSnd)
+        from your device.{" "}
       </p>
       <h3>Liability</h3>
       <p>
-        ChkSnd and the materials in ChkSnd and on our website are provided on an
-        'as is' basis. To the extent permitted by law, Aibek Mazhitov makes no
-        warranties, expressed or implied, and hereby disclaims and negates all
-        other warranties including, without limitation, implied warranties or
-        conditions of merchantability, fitness for a particular purpose, or
-        non-infringement of intellectual property, or other violation of rights.{" "}
+        Vibely (ChkSnd) and the materials in Vibely (ChkSnd) and on our website
+        are provided on an 'as is' basis. To the extent permitted by law, Aibek
+        Mazhitov makes no warranties, expressed or implied, and hereby disclaims
+        and negates all other warranties including, without limitation, implied
+        warranties or conditions of merchantability, fitness for a particular
+        purpose, or non-infringement of intellectual property, or other
+        violation of rights.{" "}
       </p>
       <p>
         In no event shall Aibek Mazhitov or its suppliers be liable for any
         consequential loss suffered or incurred by you or any third party
-        arising from the use or inability to use ChkSnd, our website, or any
-        other services provided by Aibek Mazhitov or the materials in ChkSnd,
-        even if Aibek Mazhitov or an authorized representative has been
-        notified, orally or in writing, of the possibility of such damage.{" "}
+        arising from the use or inability to use Vibely (ChkSnd), our website,
+        or any other services provided by Aibek Mazhitov or the materials in
+        Vibely (ChkSnd), even if Aibek Mazhitov or an authorized representative
+        has been notified, orally or in writing, of the possibility of such
+        damage.{" "}
       </p>
       <p>
         In the context of this agreement, &ldquo;consequential loss&rdquo;
@@ -124,51 +129,52 @@ const Terms = () => (
       </p>
       <h3>Accuracy of Materials</h3>
       <p>
-        The materials appearing in ChkSnd or on our website are not
+        The materials appearing in Vibely (ChkSnd) or on our website are not
         comprehensive and are for general information purposes only. To the
         extent permitted by law, Aibek Mazhitov does not warrant or make any
         representations concerning the accuracy, likely results, or reliability
-        of the use of the materials in ChkSnd or on our website, or otherwise
-        relating to such materials or on any resources linked to ChkSnd and our
-        website.{" "}
+        of the use of the materials in Vibely (ChkSnd) or on our website, or
+        otherwise relating to such materials or on any resources linked to
+        Vibely (ChkSnd) and our website.{" "}
       </p>
       <h3>Links</h3>
       <p>
-        Aibek Mazhitov has not reviewed all of the sites linked to ChkSnd or on
-        its corresponding website and is not responsible for the contents of any
-        such linked site. The inclusion of any link does not imply endorsement,
-        approval, or control by Aibek Mazhitov of the site. Use of any such
-        linked website is at your own risk and we strongly advise you make your
-        own investigations with respect to the suitability of those sites.{" "}
+        Aibek Mazhitov has not reviewed all of the sites linked to Vibely
+        (ChkSnd) or on its corresponding website and is not responsible for the
+        contents of any such linked site. The inclusion of any link does not
+        imply endorsement, approval, or control by Aibek Mazhitov of the site.
+        Use of any such linked website is at your own risk and we strongly
+        advise you make your own investigations with respect to the suitability
+        of those sites.{" "}
       </p>
       <h3>Notice regarding Apple</h3>
       <p>
-        To the extent that you are using or accessing ChkSnd on an iOS device,
-        you acknowledge and agree to the terms of this clause. You acknowledge
-        that these Terms of Service are between you and Aibek Mazhitov only, not
-        with Apple Inc. (Apple), and Apple is not responsible for ChkSnd and any
-        materials available in ChkSnd.{" "}
+        To the extent that you are using or accessing Vibely (ChkSnd) on an iOS
+        device, you acknowledge and agree to the terms of this clause. You
+        acknowledge that these Terms of Service are between you and Aibek
+        Mazhitov only, not with Apple Inc. (Apple), and Apple is not responsible
+        for Vibely (ChkSnd) and any materials available in Vibely (ChkSnd).{" "}
       </p>
       <p>
         Apple has no obligation to furnish you with any maintenance and support
-        services with respect to ChkSnd.{" "}
+        services with respect to Vibely (ChkSnd).{" "}
       </p>
       <p>
-        If ChkSnd fails to conform to any applicable warranty, you may notify
-        Apple and Apple will refund the purchase price of the mobile application
-        to you. To the maximum extent permitted by applicable law, Apple will
-        have no other warranty obligation whatsoever with respect to ChkSnd and
-        any other claims, losses, liabilities, damages, costs, or expenses
-        attributable to any failure to conform to any warranty will be our
-        responsibility.{" "}
+        If Vibely (ChkSnd) fails to conform to any applicable warranty, you may
+        notify Apple and Apple will refund the purchase price of the mobile
+        application to you. To the maximum extent permitted by applicable law,
+        Apple will have no other warranty obligation whatsoever with respect to
+        Vibely (ChkSnd) and any other claims, losses, liabilities, damages,
+        costs, or expenses attributable to any failure to conform to any
+        warranty will be our responsibility.{" "}
       </p>
       <p>
         Apple is not responsible for addressing any claims by you or any third
-        party relating to ChkSnd or your use of ChkSnd, including but not
-        limited to (1) product liability claims; (2) any claim that our mobile
-        application fails to conform to any applicable legal or regulatory
-        requirement; and (3) claims arising under consumer protection or similar
-        legislation.{" "}
+        party relating to Vibely (ChkSnd) or your use of Vibely (ChkSnd),
+        including but not limited to (1) product liability claims; (2) any claim
+        that our mobile application fails to conform to any applicable legal or
+        regulatory requirement; and (3) claims arising under consumer protection
+        or similar legislation.{" "}
       </p>
       <p>
         Apple is not responsible for the investigation, defence, settlement, and
@@ -177,8 +183,8 @@ const Terms = () => (
       </p>
       <p>
         You agree to comply with any applicable third-party terms when using
-        ChkSnd, including any Usage Rules set forth in the Apple App Store
-        Agreement of Service.{" "}
+        Vibely (ChkSnd), including any Usage Rules set forth in the Apple App
+        Store Agreement of Service.{" "}
       </p>
       <p>
         Apple and Apple’s subsidiaries are third-party beneficiaries of these
@@ -196,9 +202,9 @@ const Terms = () => (
       </p>
       <h3>Right to Terminate</h3>
       <p>
-        We may suspend or terminate your right to use ChkSnd and these Terms of
-        Service immediately upon written notice to you for any breach of these
-        Terms of Service.{" "}
+        We may suspend or terminate your right to use Vibely (ChkSnd) and these
+        Terms of Service immediately upon written notice to you for any breach
+        of these Terms of Service.{" "}
       </p>
       <h3>Severance</h3>
       <p>

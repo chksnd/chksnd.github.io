@@ -8,7 +8,7 @@ const Privacy = () => (
         Your privacy is important to us. It is Aibek Mazhitov&#39;s policy to
         respect your privacy and comply with any applicable law and regulation
         regarding any personal information we may collect about you, including
-        via our app, ChkSnd, and its associated services.{" "}
+        via our app, Vibely (ChkSnd), and its associated services.{" "}
       </p>
       <p>
         Personal information is any information about you which can be used to
